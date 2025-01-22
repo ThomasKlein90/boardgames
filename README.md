@@ -40,6 +40,6 @@ A high complexity game, with a theme that I like (Animals) and some tile placeme
 Again, a complex game with deck building and tile placement, means I should like this game. Very few traits are negatively impacting the result, one of them being Territory Building, which is indeed, not my favourite mechanic.
 
 
-### 7. Conclusion
+### Conclusion
 
 This project has been a tentative at a recommender system to give myself some recommendations of games I would enjoy based on traits such as game complexity, mechanics and categories. The main obstacle to a reliable prediction and model building is that the target metric, my own rating, is subjective and some games having a certain theme or mechanic could be rated high in some cases and low in others because of other factors, some of them where discarded in this project due to complexity of analysis or incomplete data (e.g. designer, artist, publisher...). External factors, such as mood, people I played with, how I overall did at the game (playing well or badly) could have an impact on my subjective rating but obviously cannot be captured my the moddel. Finally, the small sample size of game with the target feature present (~110 games) compared to the overall list of games (~90k) means the data used for training of this unsupervised model is likely to cause underfitting when training (and testing) the model.
